@@ -1,2 +1,2 @@
-# DOM1-assignment
+# DOM-assignment
 document object model
