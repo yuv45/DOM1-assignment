@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           h1{
+            text-align: center;
+            color: teal;
+           }
+           input{
+            margin-left: 40%;
+            height: 30px;
+            width: 300px;
+            border-radius: 10px;
+           }
+           h3{
+            text-align: center;
+           }
+           button{
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+        
+           }
+    </style>
+</head>
+
+<body>
+    <h1>MASAI</h1>
+    <input type="text" id="inp1" placeholder="Enter the password">
+    <button onclick="clicked()" id="mybutton">Submit</button>
+    <h3 id="h1">Entered value:</h3>
+</body>
+<script>
+    function clicked(){
+        let H1=document.getElementById("h1");
+            let name=document.getElementById("inp1").value;
+             H1.innerText=name;
+           alert(H1.innerText)
+             
+         
+    }
+</script>
+</html>                                                                             
